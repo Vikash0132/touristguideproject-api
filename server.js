@@ -7,7 +7,10 @@ app.use(cors());
 app.use(bodyParser.json());
 
 const users = [
-  { username: 'Vikash', password: 'Vikash12345' }, { username: 'Saptak', password: 'Saptak12345' }, { username: 'Kapish', password: 'Kapish12345' }, { username: 'Yuvan', password: 'Yuvan12345' }
+  { username: 'Vikash', password: 'Vikash12345' },
+  { username: 'Saptak', password: 'Saptak12345' },
+  { username: 'Kapish', password: 'Kapish12345' },
+  { username: 'Yuvan', password: 'Yuvan12345' }
 ];
 
 app.post('/login', (req, res) => {
